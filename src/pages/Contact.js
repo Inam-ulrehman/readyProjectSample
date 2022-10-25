@@ -33,7 +33,7 @@ const Contact = () => {
 
       <Wrapper>
         <form onSubmit={handleSubmit} className='form'>
-          <h1>get in touch</h1>
+          <h1>Contact us</h1>
           <div className='title-underline'></div>
           {/* name */}
           <div>

@@ -9,6 +9,7 @@ const Home = () => {
   )
 }
 const Wrapper = styled.div`
-  height: calc(100vh);
+  height: calc(100vh - 3.2rem);
+  background-color: var(--grey-2);
 `
 export default Home

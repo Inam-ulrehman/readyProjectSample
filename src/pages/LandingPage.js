@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import styled from 'styled-components'
 import GoogleMaps from '../components/GoogleMaps'
-import Home from '../components/landing/Home'
+import { Home, Services } from '../components/landing'
 
 const LandingPage = () => {
   return (
@@ -14,6 +14,7 @@ const LandingPage = () => {
       </Helmet>
       <Wrapper>
         <Home />
+        <Services />
         <GoogleMaps />
       </Wrapper>
     </>
