@@ -23,9 +23,7 @@ const MobileNavbar = () => {
   useEffect(() => {}, [show])
   return (
     <Wrapper>
-      <button className='icon' onClick={handleClick}>
-        <FaBars />
-      </button>
+      <FaBars className='icon' onClick={handleClick} />
 
       <div className='sidebar' ref={sidebar}>
         <ul ref={sidebarLink}>
@@ -58,6 +56,8 @@ const Wrapper = styled.nav`
     background-color: transparent;
     border: transparent;
     position: absolute;
+    padding: 0;
+    margin: 0;
 
     :hover {
       cursor: pointer;
