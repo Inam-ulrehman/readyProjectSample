@@ -6,19 +6,18 @@ import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 
 const MobileNavbar = () => {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(true)
   const sidebar = useRef()
   const sidebarLink = useRef()
-  console.log(show)
   // sidebar
   const handleClick = (e) => {
     setShow(!show)
     if (show) {
-      sidebar.current.classList.add('hide')
-      sidebarLink.current.classList.add('hide')
+      sidebar.current.classList.add('show')
+      sidebarLink.current.classList.add('show')
     } else {
-      sidebar.current.classList.remove('hide')
-      sidebarLink.current.classList.remove('hide')
+      sidebar.current.classList.remove('show')
+      sidebarLink.current.classList.remove('show')
     }
   }
   useEffect(() => {}, [show])
@@ -72,6 +71,7 @@ const Wrapper = styled.nav`
     background-color: var(--grey-2);
     position: relative;
     transition: var(--transition);
+    margin-left: -350px;
     ul {
       li {
         :hover {
@@ -94,8 +94,8 @@ const Wrapper = styled.nav`
     }
   }
 
-  .hide {
-    margin-left: -350px;
+  .show {
+    margin-left: 0px;
     transition: var(--transition);
   }
   @media (min-width: 600px) {
