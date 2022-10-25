@@ -54,9 +54,10 @@ const Wrapper = styled.nav`
 
   .icon {
     color: var(--primary-8);
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: transparent;
     border: transparent;
+    position: absolute;
 
     :hover {
       cursor: pointer;
@@ -64,7 +65,7 @@ const Wrapper = styled.nav`
   }
   /* sidebar */
   .sidebar {
-    margin-top: -5px;
+    margin-top: 3.2rem;
     height: calc(100vh);
     width: 60vw;
     background-color: var(--grey-2);
