@@ -50,14 +50,13 @@ const Wrapper = styled.nav`
   height: 3.2rem;
   position: fixed;
   width: 100vw;
+  z-index: 10;
 
   .icon {
-    margin: 10px;
     color: var(--primary-8);
     font-size: 2rem;
     background-color: transparent;
     border: transparent;
-    display: flex;
 
     :hover {
       cursor: pointer;
@@ -65,13 +64,14 @@ const Wrapper = styled.nav`
   }
   /* sidebar */
   .sidebar {
-    margin-top: -9px;
+    margin-top: -5px;
     height: calc(100vh);
     width: 60vw;
     background-color: var(--grey-2);
     position: relative;
     transition: var(--transition);
     margin-left: -350px;
+
     ul {
       li {
         :hover {
