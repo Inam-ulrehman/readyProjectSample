@@ -82,7 +82,7 @@ const Contact = () => {
 }
 
 const Wrapper = styled.div`
-  margin: 0;
+  /* margin: 0; */
   display: flex;
   align-items: center;
   .contactImage {

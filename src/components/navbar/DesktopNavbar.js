@@ -24,7 +24,7 @@ const DesktopNavbar = () => {
 const Wrapper = styled.nav`
   box-shadow: var(--shadow-2);
   height: 3.2rem;
-  background-color: var(--white);
+  background-color: var(--primary-5);
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -37,7 +37,7 @@ const Wrapper = styled.nav`
       margin-top: -5px;
       a {
         padding: 1rem;
-        color: var(--primary-8);
+        color: var(--white);
         transition: var(--transition);
         :hover {
           background-color: var(--primary-7);

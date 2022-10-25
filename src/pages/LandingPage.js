@@ -1,6 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
+import styled from 'styled-components'
 import GoogleMaps from '../components/GoogleMaps'
+import Home from '../components/landing/Home'
 
 const LandingPage = () => {
   return (
@@ -10,10 +12,12 @@ const LandingPage = () => {
         <meta name='description' content='Welcome to our home Page' />
         <link rel='canonical' href='/' />
       </Helmet>
-      <h1>this is our landing page</h1>
-      <GoogleMaps />
+      <Wrapper>
+        <Home />
+        <GoogleMaps />
+      </Wrapper>
     </>
   )
 }
-
+const Wrapper = styled.div``
 export default LandingPage
