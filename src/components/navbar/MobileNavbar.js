@@ -3,24 +3,25 @@ import styled from 'styled-components'
 import { navbar } from '../../utils/data'
 import { FaBars } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 const MobileNavbar = () => {
   const [show, setShow] = useState(false)
   const sidebar = useRef()
   const sidebarLink = useRef()
-
+  console.log(show)
   // sidebar
   const handleClick = (e) => {
     setShow(!show)
     if (show) {
-      sidebar.current.classList.remove('show')
+      sidebar.current.classList.add('hide')
       sidebarLink.current.classList.add('hide')
     } else {
-      sidebar.current.classList.add('show')
+      sidebar.current.classList.remove('hide')
       sidebarLink.current.classList.remove('hide')
     }
   }
-
+  useEffect(() => {}, [show])
   return (
     <Wrapper>
       <button className='icon' onClick={handleClick}>
@@ -28,7 +29,7 @@ const MobileNavbar = () => {
       </button>
 
       <div className='sidebar' ref={sidebar}>
-        <ul className='hide' ref={sidebarLink}>
+        <ul ref={sidebarLink}>
           {navbar.map((item, index) => {
             return (
               <li key={index} onClick={handleClick}>
@@ -66,8 +67,8 @@ const Wrapper = styled.nav`
   /* sidebar */
   .sidebar {
     margin-top: -9px;
-    height: calc(100vh - 60px);
-    width: 0px;
+    height: calc(100vh);
+    width: 60vw;
     background-color: var(--grey-2);
     position: relative;
     transition: var(--transition);
@@ -78,6 +79,7 @@ const Wrapper = styled.nav`
         }
         a,
         svg {
+          font-size: 1.5rem;
         }
         a {
           color: var(--primary-8);
@@ -91,12 +93,10 @@ const Wrapper = styled.nav`
       }
     }
   }
+
   .hide {
-    margin-left: -100px;
+    margin-left: -350px;
     transition: var(--transition);
-  }
-  .show {
-    width: 200px;
   }
   @media (min-width: 600px) {
     display: none;
