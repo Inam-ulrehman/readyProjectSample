@@ -33,7 +33,7 @@ const Contact = () => {
 
       <Wrapper>
         <form onSubmit={handleSubmit} className='form'>
-          <h1>Contact us</h1>
+          <h5>Get In Touch</h5>
           <div className='title-underline'></div>
           {/* name */}
           <div>
@@ -89,9 +89,6 @@ const Wrapper = styled.div`
     img {
       max-width: 400px;
     }
-  }
-  h1 {
-    margin-top: 0;
   }
 
   @media (max-width: 720px) {

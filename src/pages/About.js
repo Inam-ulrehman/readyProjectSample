@@ -9,7 +9,6 @@ const About = () => {
         <meta name='description' content='Welcome to our About Page' />
         <link rel='canonical' href='/about' />
       </Helmet>
-      <h1>This is about page</h1>
     </>
   )
 }

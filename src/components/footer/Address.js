@@ -25,6 +25,10 @@ const Wrapper = styled.div`
     margin: 0;
     display: inline;
     color: var(--primary-8);
+    :hover {
+      cursor: pointer;
+      color: var(--primary-5);
+    }
   }
 `
 export default Address
