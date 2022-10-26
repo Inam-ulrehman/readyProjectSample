@@ -24,7 +24,7 @@ const DesktopNavbar = () => {
 const Wrapper = styled.nav`
   box-shadow: var(--shadow-2);
   height: 3.2rem;
-  background-color: var(--primary-5);
+  background-color: var(--white);
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -37,21 +37,19 @@ const Wrapper = styled.nav`
       margin-top: -5px;
       a {
         padding: 1rem;
-        color: var(--white);
+        color: var(--black);
         transition: var(--transition);
         :hover {
-          background-color: var(--primary-7);
+          background-color: var(--primary-5);
+          color: var(--white);
         }
       }
     }
   }
   /* nav active */
   .active {
-    background-color: var(--primary-8);
+    background-color: var(--primary-5);
     color: var(--white);
-    :hover {
-      background-color: var(--primary-7);
-    }
   }
   @media (max-width: 600px) {
     display: none;

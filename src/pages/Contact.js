@@ -33,7 +33,7 @@ const Contact = () => {
 
       <Wrapper>
         <form onSubmit={handleSubmit} className='form'>
-          <h5>Get In Touch</h5>
+          <h1 className='title'>Get In Touch with us</h1>
           <div className='title-underline'></div>
           {/* name */}
           <div>
@@ -82,6 +82,10 @@ const Contact = () => {
 }
 
 const Wrapper = styled.div`
+  h1 {
+    margin-top: 0;
+    font-size: 1rem;
+  }
   /* margin: 0; */
   display: flex;
   align-items: center;
