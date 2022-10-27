@@ -83,6 +83,7 @@ const Contact = () => {
 }
 
 const Wrapper = styled.div`
+  height: 100vh;
   h1 {
     margin-top: 0;
     font-size: 1rem;

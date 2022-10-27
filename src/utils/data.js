@@ -58,6 +58,20 @@ export const services = [
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
+  {
+    title: 'Digital Services',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
+  },
+  {
+    title: 'Digital Services',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
+  },
 ]
 // ================About Page================
 export const aboutHeading = {
