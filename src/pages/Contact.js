@@ -2,7 +2,8 @@ import React from 'react'
 import { useRef } from 'react'
 import { Helmet } from 'react-helmet-async'
 import styled from 'styled-components'
-import image from '../images/contact_us.svg'
+const image =
+  'https://res.cloudinary.com/inam6530/image/upload/v1666889197/inamwebsolutions/contact_us_khrwtg.svg'
 
 const Contact = () => {
   const name = useRef(null)
@@ -74,7 +75,7 @@ const Contact = () => {
           </button>
         </form>
         <div className='contactImage'>
-          <img src={image} alt='' />
+          <img src={image} alt='contactUs' />
         </div>
       </Wrapper>
     </>

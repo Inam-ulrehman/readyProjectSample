@@ -59,7 +59,34 @@ export const services = [
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
 ]
+// ================About Page================
+export const aboutHeading = {
+  title: 'Meet Our Team Members',
+  paragraph:
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, tempore. Vitae inventore aperiam quibusdam nam nisi sunt quam fugiat magnam!',
+}
 
+// ==========Team Members=========
+export const teamMembers = [
+  {
+    img: 'https://res.cloudinary.com/inam6530/image/upload/v1666886063/inamwebsolutions/Untitled_design_qj4p3g.png',
+    titleName: 'Arjun Kapoor',
+    titleJob: 'Software engineer',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
+  },
+  {
+    img: 'https://res.cloudinary.com/inam6530/image/upload/v1666886063/inamwebsolutions/Untitled_design_qj4p3g.png',
+    titleName: 'Arjun Kapoor',
+    titleJob: 'Software engineer',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
+  },
+  {
+    img: 'https://res.cloudinary.com/inam6530/image/upload/v1666886063/inamwebsolutions/Untitled_design_qj4p3g.png',
+    titleName: 'Arjun Kapoor',
+    titleJob: 'Software engineer',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
+  },
+]
 // ===========footer //============
 // ===== Data for Address =====
 export const address = [
