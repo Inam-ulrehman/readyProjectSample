@@ -1,23 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import image from '../../images/landingPage.svg'
+import { landingPage } from '../../utils/data'
 
 const Home = () => {
   return (
     <Wrapper>
       <div className='box box-mobile'>
         <div className='mobile-container'>
-          <h1>Heading</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum unde
-            distinctio quos neque aperiam alias, id, natus error accusantium
-            itaque nam, iste mollitia!
-          </p>
-          <button className='btn'>Button</button>
+          <h1>{landingPage.heading}</h1>
+          <p>{landingPage.paragraph}</p>
+          <Link to={landingPage.path} className='btn'>
+            {landingPage.buttonTitle}
+          </Link>
         </div>
       </div>
       <div className='box box-desktop'>
-        <img src={image} alt='computerPicture' />
+        <img src={landingPage.image} alt='computerPicture' />
       </div>
     </Wrapper>
   )
@@ -32,7 +31,7 @@ const Wrapper = styled.div`
   .box-mobile {
     display: grid;
     align-items: center;
-    padding: 1.5rem;
+    padding: 2rem;
   }
   .box-desktop {
     display: none;
@@ -41,10 +40,13 @@ const Wrapper = styled.div`
       width: 80%;
     }
   }
-  @media (min-width: 600px) {
-    grid-template-columns: 1fr 1fr;
+  @media (min-width: 720px) {
+    grid-template-columns: 1.5fr 1fr;
     .box-desktop {
       display: grid;
+    }
+    .box-mobile {
+      padding: 4rem;
     }
   }
 `

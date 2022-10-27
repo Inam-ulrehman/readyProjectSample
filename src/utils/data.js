@@ -17,7 +17,50 @@ export const navbar = [
   { id: 4, path: '/product', title: 'Services', icon: <FaRegSun /> },
 ]
 
-// footer //============
+// ==========Landing Page=============//
+export const landingPage = {
+  heading: 'Website development solutions',
+  paragraph:
+    'We provide digital solutions to all businesses, from Software Development to deployment or design to hosting we cover your back.',
+  path: '/product',
+  buttonTitle: 'Services',
+  image:
+    'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+}
+
+// =========Services============//
+export const services = [
+  {
+    title: 'Digital Services',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
+  },
+  {
+    title: 'Digital Services',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
+  },
+  {
+    title: 'Digital Services',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
+  },
+  {
+    title: 'Digital Services',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
+  },
+]
+
+// ===========footer //============
 // ===== Data for Address =====
 export const address = [
   {

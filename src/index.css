@@ -48,14 +48,17 @@ html {
   /* rest of the vars */
   --backgroundColor: var(--grey-05);
   --textColor: var(--grey-9);
-  --radius: 0.25rem;
   --letterSpacing: 1px;
   --max-width: 1120px;
   --fixed-width: 600px;
+  /* radius */
+  --radius: 0.25rem;
+  --radius-1: 0.5rem;
+  --radius-2: 0.75rem;
   /* transition*/
   --transition: 0.3s ease-in-out all;
-  --transition-1: 0.6s ease-in-out all;
-  --transition-2: 1s ease-in-out all;
+  --transition-1: 0.5s ease-in-out all;
+  --transition-2: 75s ease-in-out all;
   /* box shadow*/
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
