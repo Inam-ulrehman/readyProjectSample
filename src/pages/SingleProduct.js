@@ -5,9 +5,10 @@ import { services } from '../utils/data'
 
 const SingleProduct = () => {
   const { id } = useParams()
+  const productId = Number(id)
 
   const SingleObject = services.find((item) => {
-    return item.id == id
+    return item.id === productId
   })
   const { title, image, description } = SingleObject
   return (
