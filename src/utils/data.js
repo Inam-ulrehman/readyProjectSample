@@ -31,7 +31,7 @@ export const landingPage = {
 // =========Services============//
 export const services = [
   {
-    id: '1',
+    id: 1,
     title: 'Digital Services',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
@@ -39,7 +39,7 @@ export const services = [
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
   {
-    id: '2',
+    id: 2,
     title: 'Digital Services',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
@@ -47,7 +47,7 @@ export const services = [
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
   {
-    id: '3',
+    id: 3,
     title: 'Digital Services',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
@@ -55,7 +55,7 @@ export const services = [
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
   {
-    id: '4',
+    id: 4,
     title: 'Digital Services',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
@@ -63,7 +63,7 @@ export const services = [
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
   {
-    id: '5',
+    id: 5,
     title: 'Digital Services',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
@@ -71,7 +71,7 @@ export const services = [
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
   {
-    id: '6',
+    id: 6,
     title: 'Digital Services',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
