@@ -32,7 +32,7 @@ export const landingPage = {
 export const services = [
   {
     id: 1,
-    title: 'Digital Services',
+    title: 'Website Design',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -40,7 +40,7 @@ export const services = [
   },
   {
     id: 2,
-    title: 'Digital Services',
+    title: 'Website Hosting',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -48,7 +48,7 @@ export const services = [
   },
   {
     id: 3,
-    title: 'Digital Services',
+    title: 'Mobile App',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -56,7 +56,7 @@ export const services = [
   },
   {
     id: 4,
-    title: 'Digital Services',
+    title: 'SEO Ready',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -64,7 +64,7 @@ export const services = [
   },
   {
     id: 5,
-    title: 'Digital Services',
+    title: 'Digital Marketing',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -72,7 +72,7 @@ export const services = [
   },
   {
     id: 6,
-    title: 'Digital Services',
+    title: 'E Commerce',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
