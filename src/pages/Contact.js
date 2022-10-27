@@ -83,7 +83,8 @@ const Contact = () => {
 }
 
 const Wrapper = styled.div`
-  height: 100vh;
+  padding-top: 3rem;
+
   h1 {
     margin-top: 0;
     font-size: 1rem;
@@ -92,8 +93,9 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   .contactImage {
+    padding: 1rem;
     img {
-      max-width: 400px;
+      width: 40vw;
     }
   }
 
