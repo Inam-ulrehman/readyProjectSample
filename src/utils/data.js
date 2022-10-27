@@ -89,20 +89,20 @@ export const aboutHeading = {
 // ==========Team Members=========
 export const teamMembers = [
   {
-    img: 'https://res.cloudinary.com/inam6530/image/upload/v1666886063/inamwebsolutions/Untitled_design_qj4p3g.png',
-    titleName: 'Arjun Kapoor',
+    img: 'https://res.cloudinary.com/inam6530/image/upload/v1664284821/WhatsApp_Image_2022-09-27_at_9.18.04_AM_-_Edited_k9u6lq.png',
+    titleName: 'Sania Rehman',
+    titleJob: 'Marketing Manager',
+    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
+  },
+  {
+    img: 'https://res.cloudinary.com/inam6530/image/upload/v1666904764/inamwebsolutions/Untitled_design_1_wwzfww.png',
+    titleName: 'Inam Rehman',
     titleJob: 'Software engineer',
     description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
   },
   {
     img: 'https://res.cloudinary.com/inam6530/image/upload/v1666886063/inamwebsolutions/Untitled_design_qj4p3g.png',
-    titleName: 'Arjun Kapoor',
-    titleJob: 'Software engineer',
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
-  },
-  {
-    img: 'https://res.cloudinary.com/inam6530/image/upload/v1666886063/inamwebsolutions/Untitled_design_qj4p3g.png',
-    titleName: 'Arjun Kapoor',
+    titleName: 'George Bush',
     titleJob: 'Software engineer',
     description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
   },
