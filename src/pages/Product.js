@@ -20,10 +20,11 @@ const Product = () => {
         </div>
         <div className='service'>
           {services.map((item, index) => {
-            const { title, image, description } = item
+            const { id, title, image, description } = item
             return (
               <Service
                 key={index}
+                id={id}
                 title={title}
                 image={image}
                 description={description}

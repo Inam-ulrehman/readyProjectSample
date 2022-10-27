@@ -1,12 +1,18 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 
 // image size is 720px
 
-const Service = ({ image, title, description }) => {
+const Service = ({ id, image, title, description }) => {
+  const navigate = useNavigate()
+
+  const handleClick = (id) => {
+    navigate(`/product/${id}`)
+  }
   return (
     <Wrapper>
-      <div className='box box-1'>
+      <div className='box box-1' onClick={() => handleClick(id)}>
         <div className='image'>
           <img src={image} alt='computer' />
         </div>
