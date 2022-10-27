@@ -9,7 +9,7 @@ const SharedLayout = () => {
     <main>
       <DesktopNavbar />
       <MobileNavbar />
-      <section className='section'>
+      <section>
         <Outlet />
       </section>
       <Footer />

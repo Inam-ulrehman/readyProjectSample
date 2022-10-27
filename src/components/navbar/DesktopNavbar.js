@@ -29,6 +29,7 @@ const Wrapper = styled.nav`
   justify-content: space-between;
   text-align: center;
   position: fixed;
+  top: 0;
   width: 100vw;
   ul {
     display: flex;
