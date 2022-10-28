@@ -19,7 +19,7 @@ const Subscribe = () => {
         toast.success(`${response.data.email} Subscribed.
         `)
       } catch (error) {
-        toast.error(error.response.data)
+        toast.warning(error.response.data)
       }
     }
   }
