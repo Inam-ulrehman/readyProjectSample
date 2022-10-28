@@ -32,7 +32,7 @@ export const landingPage = {
 export const services = [
   {
     id: 1,
-    title: 'Website Design',
+    title: 'Design Websites',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -40,7 +40,7 @@ export const services = [
   },
   {
     id: 2,
-    title: 'Website Hosting',
+    title: 'Hosting Services',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -48,7 +48,7 @@ export const services = [
   },
   {
     id: 3,
-    title: 'Mobile App',
+    title: 'Mobile Apps',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
@@ -56,14 +56,6 @@ export const services = [
   },
   {
     id: 4,
-    title: 'SEO Ready',
-    image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
-  },
-  {
-    id: 5,
     title: 'Digital Marketing',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
@@ -71,8 +63,16 @@ export const services = [
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
   {
+    id: 5,
+    title: 'Business Solutions',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
+  },
+  {
     id: 6,
-    title: 'E Commerce',
+    title: 'E-Commerce Project',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
