@@ -50,7 +50,7 @@ export const services = [
     id: 3,
     title: 'Mobile Apps',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+      'https://res.cloudinary.com/inam6530/image/upload/v1666991395/inamwebsolutions/Untitled_design_1_unvwrk.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
@@ -58,7 +58,7 @@ export const services = [
     id: 4,
     title: 'Digital Marketing',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+      'https://res.cloudinary.com/inam6530/image/upload/v1666991811/inamwebsolutions/Untitled_design_maznza.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
@@ -66,7 +66,7 @@ export const services = [
     id: 5,
     title: 'Business Solutions',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+      'https://res.cloudinary.com/inam6530/image/upload/v1666990217/inamwebsolutions/Untitled_design_3_iu3ll4.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
@@ -74,7 +74,7 @@ export const services = [
     id: 6,
     title: 'E-Commerce Project',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+      'https://res.cloudinary.com/inam6530/image/upload/v1666992365/inamwebsolutions/Untitled_design_i7xgii.svg',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },

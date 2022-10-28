@@ -1,9 +1,14 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Logo = () => {
+  const navigate = useNavigate()
+  const handleClick = () => {
+    navigate('/')
+  }
   return (
-    <Wrapper>
+    <Wrapper onClick={handleClick}>
       <p>
         Inam<span>Web</span>Solutions
       </p>
