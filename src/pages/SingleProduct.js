@@ -39,6 +39,9 @@ const Wrapper = styled.div`
     .image {
       display: grid;
       place-content: center;
+      background-color: var(--grey-4);
+      border-radius: var(--radius-2);
+      box-shadow: var(--shadow-2);
       img {
         max-width: 320px;
       }
@@ -51,6 +54,7 @@ const Wrapper = styled.div`
       .image {
         img {
           max-width: 420px;
+          max-height: 400px;
         }
       }
     }
