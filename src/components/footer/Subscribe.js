@@ -9,15 +9,14 @@ const Subscribe = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
     const email = emailInput.current.value
-    const at = '@'
-    const dot = '.'
-    if (!email || !at || !dot) {
+
+    if (!email) {
       return toast.error('please enter valid email')
     } else {
       try {
         const response = await customFetch.post('/emails', { email })
         emailInput.current.value = ''
-        toast.success(`${response.data.email.email} Subscribed.
+        toast.success(`${response.data.email} Subscribed.
         `)
       } catch (error) {
         toast.error(error.response.data)
