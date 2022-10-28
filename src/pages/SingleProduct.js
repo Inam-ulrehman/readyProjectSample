@@ -40,8 +40,7 @@ const Wrapper = styled.div`
       display: grid;
       place-content: center;
       img {
-        width: 80vw;
-        height: 50vh;
+        max-width: 320px;
       }
     }
   }
@@ -51,8 +50,7 @@ const Wrapper = styled.div`
       grid-template-columns: 1fr 1fr;
       .image {
         img {
-          width: 40vw;
-          height: 50vh;
+          max-width: 420px;
         }
       }
     }
