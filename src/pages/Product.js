@@ -42,14 +42,17 @@ const Wrapper = styled.div`
     padding-top: 1rem;
   }
   .service {
-    display: grid;
-    place-items: center;
-  }
-  @media (min-width: 600px) {
-    .service {
+    @media (min-width: 620px) {
+      display: grid;
       grid-template-columns: 1fr 1fr;
+      max-width: var(--fixed-width);
+      margin: 0 auto;
+      gap: 1rem;
+    }
 
-      margin-top: 3.2rem;
+    @media (min-width: 1120px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: var(--max-width);
     }
   }
 `

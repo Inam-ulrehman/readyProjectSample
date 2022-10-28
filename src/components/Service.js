@@ -11,99 +11,32 @@ const Service = ({ id, image, title, description }) => {
     navigate(`/product/${id}`)
   }
   return (
-    <Wrapper>
-      <div className='box box-1' onClick={() => handleClick(id)}>
-        <div className='image'>
-          <img src={image} alt='computer' />
-        </div>
-        <div className='description'>
-          <h5 className='title'>{title}</h5>
-          <div className='title-underline'></div>
-          <p className='text-small'>{description}</p>
-        </div>
-      </div>
+    <Wrapper onClick={() => handleClick(id)}>
+      <h5 className='title'>{title}</h5>
+      <img src={image} alt='computer' />
     </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
-  .box {
-    width: 90vw;
-    max-width: 400px;
-    background: var(--white);
-    border-radius: var(--borderRadius);
-    box-shadow: var(--shadow-1);
-    transition: var(--transition);
-    height: 20vh;
-    display: flex;
-    border-radius: var(--radius-1);
-    margin-bottom: 1rem;
-    :hover {
-      cursor: pointer;
-      box-shadow: var(--shadow-3);
-      .title-underline {
-        background-color: var(--green-dark);
-        transition: var(--transition-1);
-      }
-    }
-    .description {
-      overflow: hidden;
-      p {
-        display: none;
-      }
-    }
-    .image {
-      height: 20vh;
-      width: 50vw;
-      object-fit: cover;
-      overflow: hidden;
-      img {
-        width: 100%;
-        height: 20vh;
-      }
-    }
+  box-shadow: var(--shadow-1);
+  max-width: 320px;
+  margin: 1rem auto;
+  text-align: center;
+  transition: var(--transition-2);
+
+  :hover {
+    cursor: pointer;
+    background-color: var(--grey-3);
   }
-  @media (min-width: 600px) {
-    grid-template-columns: 1fr 1fr;
-    .box {
-      height: 43vh;
-      max-width: 47vw;
-      display: grid;
-      p {
-        margin: 0;
-        padding: 1rem;
-      }
-      .image {
-        height: 30vh;
-        width: 100%;
-        img {
-          width: 100%;
-          height: 30vh;
-        }
-      }
-    }
+
+  .title {
+    background-color: var(--grey-2);
+    margin: 0;
+    padding: 1rem;
   }
-  @media (min-width: 720px) {
-    grid-template-columns: 1fr 1fr;
-    .box {
-      height: 43vh;
-      max-width: 47vw;
-      display: flex;
-      .description {
-        p {
-          display: block;
-          max-width: 30vw;
-        }
-      }
-      .image {
-        height: 100%;
-        width: 60%;
-        img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-    }
+  img {
+    height: 280px;
   }
 `
 export default Service

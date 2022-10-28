@@ -26,11 +26,17 @@ const Services = () => {
 }
 
 const Wrapper = styled.div`
-  height: calc(100vh - 3.2rem);
-  display: grid;
-  place-items: center;
-  @media (min-width: 600px) {
+  @media (min-width: 620px) {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: var(--fixed-width);
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1120px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: var(--max-width);
+    gap: 1rem;
   }
 `
 export default Services

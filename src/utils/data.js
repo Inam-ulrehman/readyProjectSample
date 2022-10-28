@@ -34,7 +34,7 @@ export const services = [
     id: 1,
     title: 'Design Websites',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+      'https://res.cloudinary.com/inam6530/image/upload/v1666983035/inamwebsolutions/Untitled_design_3_v7fddf.png',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
@@ -42,7 +42,7 @@ export const services = [
     id: 2,
     title: 'Hosting Services',
     image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+      'https://res.cloudinary.com/inam6530/image/upload/v1666983031/inamwebsolutions/Untitled_design_2_uw6iu1.png',
     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             veritatis ab commodi consequuntur amet omnis dolorum sint.`,
   },
