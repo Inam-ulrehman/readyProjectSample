@@ -1,28 +1,46 @@
 import React from 'react'
 import { useRef } from 'react'
 import { Helmet } from 'react-helmet-async'
+import { toast } from 'react-toastify'
 import styled from 'styled-components'
+import { customFetch } from '../utils/axios'
 const image =
   'https://res.cloudinary.com/inam6530/image/upload/v1666889197/inamwebsolutions/contact_us_khrwtg.svg'
 
 const Contact = () => {
-  const name = useRef(null)
-  const lastName = useRef(null)
-  const email = useRef(null)
-  const details = useRef(null)
+  const nameRef = useRef(null)
+  const mobileRef = useRef(null)
+  const emailRef = useRef(null)
+  const messageRef = useRef(null)
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     // Prepare axios and good to go.
     e.preventDefault()
-    let nameValue = name.current.value
-    let lastNameValue = lastName.current.value
-    let emailValue = email.current.value
-    let detailsValue = details.current.value
-    console.log(nameValue, lastNameValue, emailValue, detailsValue)
-    name.current.value = ''
-    lastName.current.value = ''
-    email.current.value = ''
-    details.current.value = ''
+    let name = nameRef.current.value
+    let mobile = mobileRef.current.value
+    let email = emailRef.current.value
+    let message = messageRef.current.value
+    if (!name || !mobile || !email || !message) {
+      return toast.warning('Please fill all fields.')
+    } else {
+      try {
+        const response = await customFetch.post('forms', {
+          name,
+          mobile,
+          email,
+          message,
+        })
+        toast.success(
+          `Hello, ${response.data.form.name} a team member will in touch with you soon.`
+        )
+        nameRef.current.value = ''
+        mobileRef.current.value = ''
+        emailRef.current.value = ''
+        messageRef.current.value = ''
+      } catch (error) {
+        console.log(error)
+      }
+    }
   }
   return (
     <>
@@ -31,7 +49,6 @@ const Contact = () => {
         <meta name='description' content='Welcome to our Contact Form' />
         <link rel='canonical' href='/contact' />
       </Helmet>
-
       <Wrapper>
         <form onSubmit={handleSubmit} className='form'>
           <h1 className='title'>Get In Touch with us</h1>
@@ -39,35 +56,35 @@ const Contact = () => {
           {/* name */}
           <div>
             <label htmlFor='name' className='form-label'>
-              Name
+              Full Name
             </label>
-            <input className='form-input' type='text' ref={name} />
+            <input className='form-input' type='text' ref={nameRef} />
           </div>
-          {/* Last Name */}
+          {/* Mobile */}
           <div>
-            <label htmlFor='lastName' className='form-label'>
-              LastName
+            <label htmlFor='Mobile' className='form-label'>
+              Mobile Number
             </label>
-            <input className='form-input' type='text' ref={lastName} />
+            <input className='form-input' type='number' ref={mobileRef} />
           </div>
           {/* Email */}
           <div>
             <label htmlFor='email' className='form-label'>
-              email
+              Email Address
             </label>
-            <input className='form-input' type='text' ref={email} />
+            <input className='form-input' type='text' ref={emailRef} />
           </div>
-          {/* Details */}
+          {/* Message */}
           <div>
-            <label htmlFor='details' className='form-label'>
-              Details
+            <label htmlFor='message' className='form-label'>
+              Message
             </label>
             <textarea
               className='form-input'
               type='text'
               cols='50'
               rows='5'
-              ref={details}
+              ref={messageRef}
             />
           </div>
           <button type='submit' className='btn btn-block'>
