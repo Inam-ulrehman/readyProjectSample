@@ -44,7 +44,12 @@ const MobileNavbar = () => {
 }
 
 const Wrapper = styled.nav`
-  background-color: var(--grey-2);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 250, 252, 1) 0%,
+    rgba(226, 232, 240, 1) 13%,
+    rgba(100, 116, 139, 1) 100%
+  );
   height: 3.2rem;
   position: fixed;
   width: 100vw;
@@ -58,6 +63,7 @@ const Wrapper = styled.nav`
     position: absolute;
     padding: 0;
     margin: 0;
+    margin-left: 1rem;
 
     :hover {
       cursor: pointer;

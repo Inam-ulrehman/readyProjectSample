@@ -23,6 +23,12 @@ const DesktopNavbar = () => {
 
 const Wrapper = styled.nav`
   box-shadow: var(--shadow-2);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 250, 252, 1) 0%,
+    rgba(226, 232, 240, 1) 13%,
+    rgba(100, 116, 139, 1) 100%
+  );
   height: 3.2rem;
   background-color: var(--white);
   display: flex;
@@ -39,9 +45,9 @@ const Wrapper = styled.nav`
       a {
         padding: 1rem;
         color: var(--black);
-        transition: var(--transition);
+        transition: var(--transition-1);
         :hover {
-          background-color: var(--primary-5);
+          background-color: var(--primary-6);
           color: var(--white);
         }
       }

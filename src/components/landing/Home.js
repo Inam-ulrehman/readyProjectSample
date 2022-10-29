@@ -48,6 +48,16 @@ const Wrapper = styled.div`
       width: 90%;
     }
   }
+  @media (min-width: 620px) {
+    .box-mobile {
+      background: linear-gradient(
+        90deg,
+        rgba(100, 116, 139, 1) 0%,
+        rgba(226, 232, 240, 1) 94%,
+        rgba(248, 250, 252, 1) 100%
+      );
+    }
+  }
   @media (min-width: 720px) {
     grid-template-columns: 1.5fr 1fr;
     .box-desktop {
