@@ -44,15 +44,16 @@ const Wrapper = styled.div`
   }
   .box-desktop {
     display: none;
-    place-content: center;
     img {
-      width: 80%;
+      width: 90%;
     }
   }
   @media (min-width: 720px) {
     grid-template-columns: 1.5fr 1fr;
     .box-desktop {
       display: grid;
+
+      align-content: end;
     }
     .box-mobile {
       padding: 4rem;

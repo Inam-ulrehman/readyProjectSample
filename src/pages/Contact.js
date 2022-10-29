@@ -5,7 +5,7 @@ import { toast } from 'react-toastify'
 import styled from 'styled-components'
 import { customFetch } from '../utils/axios'
 const image =
-  'https://res.cloudinary.com/inam6530/image/upload/v1666889197/inamwebsolutions/contact_us_khrwtg.svg'
+  'https://res.cloudinary.com/inam6530/image/upload/v1667050400/inamwebsolutions/Untitled_design_2_aucv5v.svg'
 
 const Contact = () => {
   const nameRef = useRef(null)

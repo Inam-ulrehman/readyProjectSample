@@ -25,7 +25,7 @@ export const landingPage = {
   path: '/product',
   buttonTitle: 'Services',
   image:
-    'https://res.cloudinary.com/inam6530/image/upload/v1666878014/inamwebsolutions/landingPage_exwqdt.svg',
+    'https://res.cloudinary.com/inam6530/image/upload/v1667050849/inamwebsolutions/Untitled_design_3_aquzmj.svg',
 }
 
 // =========Services============//

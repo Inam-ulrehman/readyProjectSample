@@ -21,6 +21,7 @@ const Service = ({ id, image, title, description }) => {
 const Wrapper = styled.div`
   box-shadow: var(--shadow-1);
   max-width: 320px;
+  max-height: 340px;
   margin: 1rem auto;
   text-align: center;
   transition: var(--transition-2);
@@ -36,6 +37,7 @@ const Wrapper = styled.div`
     padding: 1rem;
   }
   img {
+    width: 100%;
     height: 280px;
   }
 `

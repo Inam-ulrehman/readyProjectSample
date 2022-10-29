@@ -26,9 +26,12 @@ const Services = () => {
 }
 
 const Wrapper = styled.div`
+  min-height: calc(100vh - 3.2rem);
+
   @media (min-width: 620px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     max-width: var(--fixed-width);
     margin: 0 auto;
   }
