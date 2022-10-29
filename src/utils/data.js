@@ -89,7 +89,7 @@ export const aboutHeading = {
 // ==========Team Members=========
 export const teamMembers = [
   {
-    img: 'https://res.cloudinary.com/inam6530/image/upload/v1664284821/WhatsApp_Image_2022-09-27_at_9.18.04_AM_-_Edited_k9u6lq.png',
+    img: 'https://res.cloudinary.com/inam6530/image/upload/v1667047659/inamwebsolutions/Untitled_design_1_zufr0r.svg',
     titleName: 'Sania Rehman',
     titleJob: 'Marketing Manager',
     description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
