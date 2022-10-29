@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { landingPage } from '../../utils/data'
+const image =
+  'https://res.cloudinary.com/inam6530/image/upload/v1667045138/inamwebsolutions/Untitled_design_1_xyl0in.png'
 
 const Home = () => {
   return (
@@ -23,15 +25,22 @@ const Home = () => {
 }
 
 const Wrapper = styled.div`
-  max-height: 100vh;
   display: grid;
   .box {
     height: 100vh;
   }
   .box-mobile {
     display: grid;
-    align-items: center;
     padding: 2rem;
+    align-items: center;
+    background-image: url(${image});
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    .mobile-container {
+      overflow: hidden;
+    }
   }
   .box-desktop {
     display: none;
