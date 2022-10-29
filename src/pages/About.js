@@ -1,7 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import styled from 'styled-components'
-import Reviews from '../components/Reviews'
 import TeamMember from '../components/TeamMember'
 import { aboutHeading, teamMembers } from '../utils/data'
 
@@ -37,8 +36,6 @@ const About = () => {
             )
           })}
         </div>
-
-        <Reviews />
       </Wrapper>
     </>
   )
