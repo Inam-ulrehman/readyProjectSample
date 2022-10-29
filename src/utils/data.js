@@ -28,62 +28,11 @@ export const landingPage = {
     'https://res.cloudinary.com/inam6530/image/upload/v1667050849/inamwebsolutions/Untitled_design_3_aquzmj.svg',
 }
 
-// =========Services============//
-export const services = [
-  {
-    id: 1,
-    title: 'Design Websites',
-    image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666983035/inamwebsolutions/Untitled_design_3_v7fddf.png',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
-  },
-  {
-    id: 2,
-    title: 'Hosting Services',
-    image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666983031/inamwebsolutions/Untitled_design_2_uw6iu1.png',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
-  },
-  {
-    id: 3,
-    title: 'Mobile Apps',
-    image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666991395/inamwebsolutions/Untitled_design_1_unvwrk.svg',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
-  },
-  {
-    id: 4,
-    title: 'Digital Marketing',
-    image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666991811/inamwebsolutions/Untitled_design_maznza.svg',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
-  },
-  {
-    id: 5,
-    title: 'Business Solutions',
-    image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666990217/inamwebsolutions/Untitled_design_3_iu3ll4.svg',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
-  },
-  {
-    id: 6,
-    title: 'E-Commerce Project',
-    image:
-      'https://res.cloudinary.com/inam6530/image/upload/v1666992365/inamwebsolutions/Untitled_design_i7xgii.svg',
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            veritatis ab commodi consequuntur amet omnis dolorum sint.`,
-  },
-]
 // ================About Page================
 export const aboutHeading = {
   title: 'Meet Our Team Members',
   paragraph:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, tempore. Vitae inventore aperiam quibusdam nam nisi sunt quam fugiat magnam!',
+    'We have very hardworking and dedicated team members, teamwork play a huge role in a project and outcomes shine when it comes to good understanding.',
 }
 
 // ==========Team Members=========
@@ -92,19 +41,19 @@ export const teamMembers = [
     img: 'https://res.cloudinary.com/inam6530/image/upload/v1667047659/inamwebsolutions/Untitled_design_1_zufr0r.svg',
     titleName: 'Sania Rehman',
     titleJob: 'Marketing Manager',
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
+    description: `Sania writes content for business and also take care of digital marketing campaigns.`,
   },
   {
     img: 'https://res.cloudinary.com/inam6530/image/upload/v1666904764/inamwebsolutions/Untitled_design_1_wwzfww.png',
     titleName: 'Inam Rehman',
     titleJob: 'Software engineer',
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
+    description: `Inam creates Digital Solutions for your business and helps you launch your product all over the internet.`,
   },
   {
     img: 'https://res.cloudinary.com/inam6530/image/upload/v1666886063/inamwebsolutions/Untitled_design_qj4p3g.png',
     titleName: 'George Bush',
     titleJob: 'Software engineer',
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, dolorum!`,
+    description: `George is a coding addict most of the time he fixes bugs and searching new technologies.`,
   },
 ]
 // ===========footer //============
@@ -167,3 +116,199 @@ export const socialIcons = [
 // ======== data for google maps==========
 
 export const googleMapsData = { lat: 43.4450848, lng: -80.48596 }
+
+// =========Services============//
+export const services = [
+  {
+    id: 1,
+    title: 'Design Websites',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666983035/inamwebsolutions/Untitled_design_3_v7fddf.png',
+    heading: 'How to design a website?',
+    description: `Before you design a website, be crystal-clear about what you want to achieve. With so many types of websites out there, you should start by deciding which kind will help you meet your goals.`,
+    imageTwo:
+      'https://res.cloudinary.com/inam6530/image/upload/v1667055870/inamwebsolutions/Untitled_design_qebmwe.svg',
+    points: [
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Hosting Services',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666983031/inamwebsolutions/Untitled_design_2_uw6iu1.png',
+    heading: 'How to design a website?',
+    description: `Before you design a website, be crystal-clear about what you want to achieve. With so many types of websites out there, you should start by deciding which kind will help you meet your goals.`,
+    imageTwo:
+      'https://res.cloudinary.com/inam6530/image/upload/v1667055870/inamwebsolutions/Untitled_design_qebmwe.svg',
+    points: [
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Mobile Apps',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666991395/inamwebsolutions/Untitled_design_1_unvwrk.svg',
+    heading: 'How to design a website?',
+    description: `Before you design a website, be crystal-clear about what you want to achieve. With so many types of websites out there, you should start by deciding which kind will help you meet your goals.`,
+    imageTwo:
+      'https://res.cloudinary.com/inam6530/image/upload/v1667055870/inamwebsolutions/Untitled_design_qebmwe.svg',
+    points: [
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Digital Marketing',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666991811/inamwebsolutions/Untitled_design_maznza.svg',
+    heading: 'How to design a website?',
+    description: `Before you design a website, be crystal-clear about what you want to achieve. With so many types of websites out there, you should start by deciding which kind will help you meet your goals.`,
+    imageTwo:
+      'https://res.cloudinary.com/inam6530/image/upload/v1667055870/inamwebsolutions/Untitled_design_qebmwe.svg',
+    points: [
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: 'Business Solutions',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666990217/inamwebsolutions/Untitled_design_3_iu3ll4.svg',
+    heading: 'How to design a website?',
+    description: `Before you design a website, be crystal-clear about what you want to achieve. With so many types of websites out there, you should start by deciding which kind will help you meet your goals.`,
+    imageTwo:
+      'https://res.cloudinary.com/inam6530/image/upload/v1667055870/inamwebsolutions/Untitled_design_qebmwe.svg',
+    points: [
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: 'E-Commerce Project',
+    image:
+      'https://res.cloudinary.com/inam6530/image/upload/v1666992365/inamwebsolutions/Untitled_design_i7xgii.svg',
+    heading: 'How to design a website?',
+    description: `Before you design a website, be crystal-clear about what you want to achieve. With so many types of websites out there, you should start by deciding which kind will help you meet your goals.`,
+    imageTwo:
+      'https://res.cloudinary.com/inam6530/image/upload/v1667055870/inamwebsolutions/Untitled_design_qebmwe.svg',
+    points: [
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+      {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi tempora quod magni neque! Facilis, necessitatibus debitis. Exercitationem, molestias quaerat!',
+      },
+    ],
+  },
+]

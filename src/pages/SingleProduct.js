@@ -10,7 +10,7 @@ const SingleProduct = () => {
   const SingleObject = services.find((item) => {
     return item.id === productId
   })
-  const { title, image, description } = SingleObject
+  const { title, heading, image, imageTwo, description, points } = SingleObject
   return (
     <Wrapper>
       <h1 className='title'>{title}</h1>
@@ -20,17 +20,31 @@ const SingleProduct = () => {
           <img src={image} alt={title} />
         </div>
         <div className='body'>
-          <h3 className='title'>{title}</h3>
+          <h3 className='title'>{heading}</h3>
           <p className='title'>{description}</p>
+          <div className='body-image'>
+            <img src={imageTwo} alt='Guru' />
+          </div>
         </div>
       </div>
+      {/* points */}
+      <ul className='points'>
+        {points.map((item, index) => {
+          return (
+            <li key={index}>
+              <span>{index + 1}. </span>
+              <p>{item.text}</p>
+            </li>
+          )
+        })}
+      </ul>
     </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
   display: grid;
-  min-height: 100vh;
+
   .title {
     padding-top: 1rem;
   }
@@ -47,6 +61,26 @@ const Wrapper = styled.div`
       }
     }
   }
+  /* body */
+  .body {
+    padding: 1rem;
+  }
+  .body-image {
+    text-align: center;
+    img {
+      max-width: 150px;
+      border-bottom: 2px solid black;
+    }
+  }
+  /* points */
+  .points {
+    padding: 1rem;
+    li {
+      box-shadow: var(--shadow-1);
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }
   @media (min-width: 768px) {
     .container {
       display: grid;
@@ -58,6 +92,14 @@ const Wrapper = styled.div`
         }
       }
     }
+    .points {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  }
+  .divider {
+    border: 2px solid var(--primary-2);
   }
 `
 export default SingleProduct
