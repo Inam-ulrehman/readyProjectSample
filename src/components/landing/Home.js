@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { landingPage } from '../../utils/data'
 const image =
-  'https://res.cloudinary.com/inam6530/image/upload/v1667045138/inamwebsolutions/Untitled_design_1_xyl0in.png'
+  'https://res.cloudinary.com/inam6530/image/upload/v1667131704/inamwebsolutions/Untitled_design_2_atlc1q.svg'
 
 const Home = () => {
   return (
