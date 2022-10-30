@@ -4,7 +4,7 @@ import { socialIcons } from '../../utils/data'
 
 const SocialMedia = () => {
   return (
-    <Wrapper className='boxDesign'>
+    <Wrapper className='boxDesign boxBackground'>
       <h3 className='title'>Follow us</h3>
       <ul>
         {socialIcons.map((item) => {
@@ -22,12 +22,20 @@ const SocialMedia = () => {
 }
 const Wrapper = styled.div`
   a {
-    font-size: 1.3rem;
-    color: var(--primary-8);
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: var(--white);
+    border-radius: var(--radius-1);
+    transition: var(--transition);
+    padding-left: 1rem;
+    span {
+      margin-left: 1rem;
+    }
 
     :hover {
       cursor: pointer;
-      color: var(--primary-5);
+      background-color: var(--primary-7);
     }
   }
 `

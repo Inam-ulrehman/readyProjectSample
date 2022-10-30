@@ -38,14 +38,6 @@ const Subscribe = () => {
   )
 }
 const Wrapper = styled.div`
-  p,
-  h3 {
-    padding: 0 1rem;
-    margin: 0;
-  }
-  p {
-    color: var(--primary-8);
-  }
   .subscribe-form {
     padding: 5px;
     input {

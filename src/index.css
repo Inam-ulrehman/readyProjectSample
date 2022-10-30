@@ -353,13 +353,13 @@ td {
 
 .boxDesign {
   max-width: var(--mobile-width);
-  background-color: var(--primary-1);
   border-radius: var(--radius);
   box-shadow: var(--shadow-1);
   transition: var(--transition);
-  color: var(black);
+  color: var(--white);
   padding: 1rem;
   margin: 1rem;
+  background: linear-gradient(88deg, #0096c7 0%, #00b4d8 50%, #48cae4 100%);
 }
 .boxDesign:hover {
   box-shadow: var(--shadow-3);

@@ -24,12 +24,15 @@ const Wrapper = styled.div`
   a {
     margin: 0;
     display: inline;
-    color: var(--primary-8);
   }
   a {
+    color: var(--white);
+    transition: var(--transition);
+    padding: 0.3rem 1rem;
+    border-radius: var(--radius-1);
     :hover {
       cursor: pointer;
-      color: var(--primary-5);
+      background-color: var(--primary-7);
     }
   }
 `
