@@ -5,7 +5,7 @@ import { toast } from 'react-toastify'
 import styled from 'styled-components'
 import { customFetch } from '../utils/axios'
 const image =
-  'https://res.cloudinary.com/inam6530/image/upload/v1667050400/inamwebsolutions/Untitled_design_2_aucv5v.svg'
+  'https://res.cloudinary.com/inam6530/image/upload/v1667130716/inamwebsolutions/Untitled_design_1_tr1efo.svg'
 
 const Contact = () => {
   const nameRef = useRef(null)
@@ -101,14 +101,17 @@ const Contact = () => {
 
 const Wrapper = styled.div`
   padding-top: 3rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  min-height: 100vh;
 
   h1 {
     margin-top: 0;
     font-size: 1rem;
   }
   /* margin: 0; */
-  display: flex;
-  align-items: center;
+
   .contactImage {
     padding: 1rem;
     img {

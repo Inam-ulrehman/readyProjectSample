@@ -6,22 +6,26 @@ import Service from '../Service'
 
 const Services = () => {
   return (
-    <Wrapper>
-      {services
-        .map((item, index) => {
-          const { id, title, image, description } = item
-          return (
-            <Service
-              key={index}
-              id={id}
-              title={title}
-              image={image}
-              description={description}
-            />
-          )
-        })
-        .slice(0, 4)}
-    </Wrapper>
+    <>
+      <h2 className='title'>Digital World</h2>
+      <div className='title-underline'></div>
+      <Wrapper>
+        {services
+          .map((item, index) => {
+            const { id, title, image, description } = item
+            return (
+              <Service
+                key={index}
+                id={id}
+                title={title}
+                image={image}
+                description={description}
+              />
+            )
+          })
+          .slice(0, 4)}
+      </Wrapper>
+    </>
   )
 }
 

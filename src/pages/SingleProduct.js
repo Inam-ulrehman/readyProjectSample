@@ -28,16 +28,18 @@ const SingleProduct = () => {
         </div>
       </div>
       {/* points */}
-      <ul className='points'>
+      <div className='points'>
         {points.map((item, index) => {
           return (
-            <li key={index}>
-              <span>{index + 1}. </span>
+            <article key={index}>
+              <h4>
+                {index + 1}. {item.title}
+              </h4>
               <p>{item.text}</p>
-            </li>
+            </article>
           )
         })}
-      </ul>
+      </div>
     </Wrapper>
   )
 }
@@ -75,7 +77,7 @@ const Wrapper = styled.div`
   /* points */
   .points {
     padding: 1rem;
-    li {
+    article {
       box-shadow: var(--shadow-1);
       margin: 1rem;
       padding: 1rem;
