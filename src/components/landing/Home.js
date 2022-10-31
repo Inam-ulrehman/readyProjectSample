@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { landingPage } from '../../utils/data'
+// import { landingPage } from '../../utils/data'
 const image =
   'https://res.cloudinary.com/inam6530/image/upload/v1667131704/inamwebsolutions/Untitled_design_2_atlc1q.svg'
 
-const Home = () => {
+const Home = ({ landingPage }) => {
+  console.log(landingPage)
   return (
     <Wrapper>
       <div className='box box-mobile'>
@@ -26,6 +27,12 @@ const Home = () => {
 
 const Wrapper = styled.div`
   display: grid;
+  h1 {
+    margin-left: 0;
+  }
+  p {
+    font-size: 1.2rem;
+  }
   .box {
     height: 100vh;
   }

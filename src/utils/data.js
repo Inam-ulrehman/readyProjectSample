@@ -27,7 +27,16 @@ export const landingPage = {
   image:
     'https://res.cloudinary.com/inam6530/image/upload/v1667050849/inamwebsolutions/Untitled_design_3_aquzmj.svg',
 }
-
+// ========Landing Page Two=========//
+export const landingPageTwo = {
+  heading: 'Host Website With Us',
+  paragraph:
+    'Time to upgrade your business? Let us help you say goodbye to the old server and move to the digital cloud database.',
+  path: '/product/2',
+  buttonTitle: 'Hosting Solutions',
+  image:
+    'https://res.cloudinary.com/inam6530/image/upload/v1667232614/inamwebsolutions/Untitled_design_qqnc8j.svg',
+}
 // ================About Page================
 export const aboutHeading = {
   title: 'Meet Our Team Members',
