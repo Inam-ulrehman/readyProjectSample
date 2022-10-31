@@ -285,11 +285,11 @@ export const services = [
   },
   {
     id: 6,
-    title: 'Ecommerce Project',
+    title: 'E-commerce Project',
     image:
       'https://res.cloudinary.com/inam6530/image/upload/v1666992365/inamwebsolutions/Untitled_design_i7xgii.svg',
-    heading: 'what is Ecommerce?',
-    description: `Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.`,
+    heading: 'what is E-commerce?',
+    description: `E-commerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.`,
     imageTwo:
       'https://res.cloudinary.com/inam6530/image/upload/v1667055870/inamwebsolutions/Untitled_design_qebmwe.svg',
     points: [
