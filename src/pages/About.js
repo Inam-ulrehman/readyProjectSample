@@ -9,7 +9,7 @@ const About = () => {
     <>
       <Helmet>
         <title>About</title>
-        <meta name='description' content='Welcome to our About Page' />
+        <meta name='description' content={aboutHeading.paragraph} />
         <link rel='canonical' href='/about' />
       </Helmet>
       <Wrapper>

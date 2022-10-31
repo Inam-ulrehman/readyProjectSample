@@ -11,7 +11,10 @@ const LandingPage = () => {
     <>
       <Helmet>
         <title>Home</title>
-        <meta name='description' content='Welcome to our home Page' />
+        <meta
+          name='description'
+          content='We provide digital solutions to all businesses, from Software Development to deployment or design to hosting we cover your back.'
+        />
         <link rel='canonical' href='/' />
       </Helmet>
       <Wrapper>

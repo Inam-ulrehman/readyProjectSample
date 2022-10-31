@@ -10,7 +10,10 @@ const Product = () => {
     <>
       <Helmet>
         <title>Services</title>
-        <meta name='description' content='Welcome to our Services Page' />
+        <meta
+          name='description'
+          content='We creates Digital Solutions for your business and helps you launch your product all over the internet'
+        />
         <link rel='canonical' href='/about' />
       </Helmet>
       <Wrapper>
